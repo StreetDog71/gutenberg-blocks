@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "mindprocess-blocks/related-articles",
+  "version": "0.1.0",
+  "title": "Related Articles",
+  "category": "mindprocess-blocks",
+  "icon": "media-document",
+  "description": "Display all the blog articles in the product category",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "mindprocess-blocks-related-articles",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

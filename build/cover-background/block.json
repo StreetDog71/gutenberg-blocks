@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "mindprocess-blocks/cover-background",
+  "version": "0.1.0",
+  "title": "Cover Background",
+  "category": "mindprocess-blocks",
+  "icon": "media-document",
+  "description": "Display a section with a cover background",
+  "supports": {
+    "html": false,
+    "alignWide": true,
+    "align": true
+  },
+  "attributes": {
+    "height": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "imageId": {
+      "type": "number"
+    },
+    "imageAlt": {
+      "type": "string",
+      "source": "attribute",
+      "selector": "img",
+      "attribute": "alt",
+      "default": ""
+    }
+  },
+  "textdomain": "mindprocess-blocks-cover-background",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

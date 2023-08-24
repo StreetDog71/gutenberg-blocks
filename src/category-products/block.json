@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "mindprocess-blocks/category-products",
+	"version": "0.1.0",
+	"title": "Category Products",
+	"category": "mindprocess-blocks",
+	"icon": "media-document",
+	"description": "Display a list of products associated with the page category",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "mindprocess-blocks-category-products",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

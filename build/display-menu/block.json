@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "mindprocess-blocks/display-menu",
+  "version": "0.1.0",
+  "title": "Display Menu",
+  "category": "mindprocess-blocks",
+  "icon": "menu",
+  "description": "Display a Classic Menu",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "menuoptions": {
+      "type": "array"
+    },
+    "selectedmenu": {
+      "type": "string",
+      "default": "0"
+    },
+    "hasmenus": {
+      "type": "string"
+    },
+    "hideunder": {
+      "type": "string"
+    }
+  },
+  "textdomain": "mindprocess-display-menu",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

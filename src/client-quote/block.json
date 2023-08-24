@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "mindprocess-blocks/client-quote",
+	"version": "0.1.0",
+	"title": "Client Quote",
+	"category": "mindprocess-blocks",
+	"icon": "media-document",
+	"description": "Display a client quote",
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"attributes": {
+		"client": {
+			"type": "string"
+		},
+		"quote": {
+			"type": "string"
+		}
+	},
+	"textdomain": "mindprocess-blocks-client-quote",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

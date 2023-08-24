@@ -1,0 +1,1 @@
+ul.menu{display:flex;list-style:none;padding:0}ul.menu li a{border-left:1px solid #ccc;font-weight:600;line-height:1;padding-block:.6rem;padding-inline:1.4rem}ul.menu li.current-menu-item a,ul.menu li.current-menu-parent a{background:#303030;color:#fff}
