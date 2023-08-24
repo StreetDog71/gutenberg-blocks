@@ -1,2 +1,1 @@
-# gutenberg-blocks
-Testing ground for Gutenberg Blocks
+This is a testing ground for Gutenberg custom blocks
